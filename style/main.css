@@ -1,3 +1,4 @@
+/*Розміщую шапку*/
 div{
     writing-mode: horizontal-tb;
     position: absolute;
@@ -11,6 +12,7 @@ div{
     justify-content: center;
     align-items: center;
 }
+/*Розміщую лого через абсолют, так як іншого способу не знайшов*/
 .Logo{
     position: absolute;
     width: 11%;
@@ -18,14 +20,17 @@ div{
     left: 1%;
     top: 1%;
 }
+/*Роблю так же через абсолют тектс та надю йому розміру*/
 h1{
     position: absolute;
     left: 40%;
     top: 10%;
+    font-size: 40px;
+line-height: 48px;
 }
-
 h3{
     font-size: 20px;
+line-height: 24px;
     position: absolute;
     left: 80%;
     top: 20%;  
@@ -36,13 +41,18 @@ h4{
     left: 70%;
     top: 20%; 
 }
+h2{
+    font-size: 20px;
+line-height: 24px;
+}
+/*Додаю відстані між стовпцями таблиці*/
 table {
     border-collapse: separate;
     border-spacing: 200px;
 }
-td {
-}
+/*Роблю посилання червоним, для кращого вигляду*/
 a {
     color: black;
     text-decoration: none;
   }
+  /**/

@@ -1,4 +1,4 @@
-
+/*Роблю переміщення тексту та зображення, й зміну розмірив шрифта*/
 p{  
     float: right;
     font-size: 25px;
@@ -29,6 +29,7 @@ li{
     font-size: 25px;
 line-height: 30px;
 }
+/*Роблю посилання червоним, для кращого вигляду*/
 a {
     color: black;
     text-decoration: none;
